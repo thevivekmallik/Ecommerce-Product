@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Display</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="tab-heading">Select your Choice</div>
+    <div class="tabs">
+        <button class="tab" onclick="showProducts('Men')"><img src="./assets/fluent-emoji-high-contrast_boy.png" alt=""> Men</button>
+        <button class="tab" onclick="showProducts('Women')"><img src="./assets/fluent-emoji-high-contrast_girl.png" alt="" >Women</button>
+        <button class="tab" onclick="showProducts('Kids')"><img src="./assets/Vector.png" alt>Kids</button>
+    </div>
+
+    <div class="product-container" id="productContainer">
+        <!-- Product cards will be dynamically generated here -->
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

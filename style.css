@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: lightgrey;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    white-space: nowrap;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+    background: rgba(0, 0, 0, 0.23);
+    color: white;
+    transform: scale(1.03);
+    text-decoration: none;
+}
+
+a:active {
+    transform: scale(0.98);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab {
+    border: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    height: 350px;
+}
+
+
+.badge {
+    background-color: #ffffff;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(20%, 68%);
+}
+
+.add-to-cart-btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.tab-heading {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 250px;
+}
+
+button.tab {
+    width: 100%;
+    height: 50px;
+    font-family: Inter;
+    font-size: large;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 2px;
+}
+button.tab:hover {
+    background-color: #000000;
+    color: #fff;
+}
+img {
+    margin-block: -5px;
+    margin-right: 10px;
+}
